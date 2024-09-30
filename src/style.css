@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    width: 100%;
+    background-color: #d5ff40
+}
+nav{
+    /* background-color: antiquewhite; */
+    width: 100%;
+    padding: 30px 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+nav h2{
+    font-size: 30px;
+    font-weight: 500;
+}
+nav a {
+    font-size: 30px;
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+}
+section{
+    padding: 10px 50px;
+}
+section .hero-text-1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.hero-text-1 h1 {
+    font-size: 210px;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height:154px;
+}
+.hero-text-1 .video{
+    height: 100px;
+    width: 430px;
+    border-radius: 50px;
+    background-color: #000;
+    background-image: url('https://images.unsplash.com/photo-1644219037686-b2ce2b0720a7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDE1OXxDRHd1d1hKQWJFd3x8ZW58MHx8fHx8');
+    background-position: center;
+    padding: 5px;
+}
+.play-video{
+    height: 100%;
+    width: 90px;
+    background-color: #000000;
+    border-radius: 100px;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover{
+        cursor: pointer;
+    }
+}
+.play-video i{
+    color: white;
+    font-size: 45px;
+}
+section .hero-text-2{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.hero-text-2 h1 {
+    font-size: 210px;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height:154px;
+}
+.hero-text-2 p {
+    font-size: 22px;
+    font-weight: 500;
+    width: 490px;
+}
+.image{
+    width: 90%;
+    height: 600px;
+    background-color: aqua;
+    background-image: url('https://img.freepik.com/premium-photo/close-up-colorful-wave-colored-light-black-background-generative-ai_958078-6397.jpg');
+    background-size: cover;
+    border-top-left-radius:90px ;
+    border-top-right-radius:90px ;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 100px;
+}
+
+.image .arrow{
+    height: 150px;
+    width: 150px;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: -10%;
+    right: 5%;
+    border: 7px solid rgb(148, 139, 165);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover{
+        cursor: pointer;
+    }
+}
+.arrow i {
+    font-size: 70px;
+}
